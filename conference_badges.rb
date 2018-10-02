@@ -26,5 +26,5 @@ def printer (attendees)
 end
 assign_rooms.each_line do |line|
 end
-puts printer(attendees)
+return printer(attendees)
 end
