@@ -15,7 +15,7 @@ def assign_rooms (attendees)
   array= []
   room_assignments=1
   hash= Hash.new
- %w(assign_rooms).each_with_index {|attendees, room_assignments|
+ (assign_rooms).each_with_index {|attendees, room_assignments|
   hash[attendees]=room_assignments
   }
   hash
