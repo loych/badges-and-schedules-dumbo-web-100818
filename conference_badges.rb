@@ -21,7 +21,7 @@ def assign_rooms (attendees, room_assignments)
   hash
   counter+=1 
   attendees.each do |attendees|
-    array.push ("Hello, #{attendees}! You'll be assigned to room #{room_assignments}!)"
+    array.push ("Hello, #{attendees}! You'll be assigned to room #{room_assignments}!")
 end
 
 def printer 
