@@ -11,13 +11,13 @@ end
   return arrayattendees
 end
 
-def assign_rooms (attendees, room_assignment)
+def assign_rooms (attendees, room_assignments)
   hash= Hash.new
-  assign_rooms.each_with_index {|attendees, room_assignment|
-  hash[attendees]=room_assignment
+  assign_rooms.each_with_index {|attendees, room_assignments|
+  hash[attendees]=room_assignments
   }
   hash
-  return "Hello, #{attendees}! You'll be assigned to room #{room_assignment}!"
+  return "Hello, #{attendees}! You'll be assigned to room #{room_assignments}!"
 end
 
 def printer 
