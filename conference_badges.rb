@@ -11,15 +11,15 @@ end
   return arrayattendees
 end
 
-def assign_rooms (attendees, room_assignments)
+def assign_rooms (attendees)
   array= []
-  counter=1
+  room_assignments=1
   hash= Hash.new
  %w(assign_rooms).each_with_index {|attendees, room_assignments|
   hash[attendees]=room_assignments
   }
   hash
-  counter+=1 
+  room_assignments+=1 
   attendees.each do |attendees|
     array.push ("Hello, #{attendees}! You'll be assigned to room #{room_assignments}!")
 end
