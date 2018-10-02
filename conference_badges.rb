@@ -18,6 +18,8 @@ def assign_rooms (attendees)
     arrayattendees.push ("Hello, #{attendees}! You'll be assigned to room #{room_assignments}!")
     room_assignments+=1
 end
+return arrayattendees
+end
 
 def printer 
 end
