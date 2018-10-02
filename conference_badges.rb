@@ -20,6 +20,7 @@ def assign_rooms (attendees, room_assignments)
   }
   hash
   counter+=1 
+  
   return "Hello, #{attendees}! You'll be assigned to room #{room_assignments}!"
 end
 
