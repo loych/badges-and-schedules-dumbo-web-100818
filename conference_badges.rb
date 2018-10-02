@@ -12,12 +12,12 @@ end
 end
 
 def assign_rooms (attendees, room_assignment)
-  return "Hello, #{attendees}! You'll be assigned to room #{room_assignment}!"
   hash= Hash.new
   assign_rooms.each_with_index {|attendees, room_assignment|
   hash[attendees]=room_assignment
   }
   hash
+  return "Hello, #{attendees}! You'll be assigned to room #{room_assignment}!"
 end
 
 def printer 
