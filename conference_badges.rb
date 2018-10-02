@@ -22,7 +22,9 @@ return arrayattendees
 end
 
 def printer (attendees)
- badges_and_room_assignments.each_line do |line|
+ batch_badge_creator.each_line do |line|
 end
-printer(attendees)
+assign_rooms.each_line do |line|
+puts printer(attendees)
+end
 end
