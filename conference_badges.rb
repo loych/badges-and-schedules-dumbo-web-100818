@@ -24,5 +24,5 @@ end
 def printer (attendees)
  badges_and_room_assignments.each_line do |line|
   end
-  return printer(attendees)
+  puts printer(attendees)
 end
