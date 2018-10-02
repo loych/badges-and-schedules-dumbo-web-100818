@@ -13,7 +13,7 @@ end
 
 def assign_rooms (attendees, room_assignments)
   hash= Hash.new
- %w (assign_rooms).each_with_index {|attendees, room_assignments|
+ %w(assign_rooms).each_with_index {|attendees, room_assignments|
   hash[attendees]=room_assignments
   }
   hash
