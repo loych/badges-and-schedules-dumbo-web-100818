@@ -17,11 +17,6 @@ def assign_rooms (attendees)
    attendees.each do |attendees|
     array.push ("Hello, #{attendees}! You'll be assigned to room #{room_assignments}!")
     room_assignments+=1
-  hash= Hash.new
- (assign_rooms).each_with_index {|attendees, room_assignments|
-  hash[attendees]=room_assignments
-  }
-  hash
  
 end
 
